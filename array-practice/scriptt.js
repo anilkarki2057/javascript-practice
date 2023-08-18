@@ -42,3 +42,27 @@ const result = numbers.reduce((sum, currentValue) => {
 console.log(result);*/
 
 //2.Write a program to remove a specific element from an array.
+
+//3.Write a program to find the maximum and minimum value of an array
+
+/*const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let newArray = [];
+newArray = numbers.sort((a, b) => {
+  return a - b;
+});
+console.log(
+  `the maximum value of an array is ${
+    newArray[newArray.length - 1]
+  } and minimum value is ${newArray[0]} `
+);*/
+
+//Write a program to find the second largest element in an array.
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+let newArray = [];
+newArray = numbers.sort((a, b) => {
+  return a - b;
+});
+console.log(
+  `The second leargest element in an array is ${newArray[newArray.length - 2]}`
+);
